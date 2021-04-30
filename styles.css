@@ -106,3 +106,19 @@ h1{
 
 }
 
+@media(min-width: 900px){
+    section{
+        height: 90vh;
+    }
+    .flex-cards{
+        display: flex;
+        width: auto;
+        max-width: 800px;
+    }
+    .card.one{
+        border-radius: 5px 0 0 5px;
+    }
+    .card.three{
+        border-radius: 0 5px 5px 0;
+    }
+}
